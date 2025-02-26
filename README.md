@@ -18,7 +18,7 @@ To use this project, ensure you have Python installed along with the required de
 
     async def main():
         mms = DontMessWithMMS(
-            account_ids="MATCHMAKING_ACCOUNT_IDS",
+            account_ids=["MATCHMAKING_ACCOUNT_IDS"],
             exchange_code="CLIENT_EXCHANGE_CODE",
             playlist="CLIENT_PLAYLIST",
             party_id="CLIENT_PARTY_ID",
